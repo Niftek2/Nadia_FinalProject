@@ -10,6 +10,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nadia's Weather App</title>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <script src="https://hapi.openweathermap.org/data/2.5/weather?lat=35&lon=139
+    ">
+    </script>
 </head>
 <body>
 <header>
@@ -45,7 +51,7 @@
         </p>
 
 
-</div>
+
 
 <div class=container2>
 
@@ -55,24 +61,14 @@
             <div class="col-8"><div class="card">
                 Today
                 <span id="city">Chicago</span>
-                    
-<span class="pic">
-    <br/>
-                    <img src="Chicago.png" width=200px>
-                    </span>
-
-                </div>
-            </div></div>
-
-
-            <div class="col-4"><div class="card">
-                <div class="card-body-2">
+             <div id="temperature">29°</div><div id=marker>°F</div>
                 
-                    29° F
-<br/>
-                    ☁️
+                    
+
+
                 </div>
             </div></div>
+
 
 
             <div class="w-100"></div>
@@ -80,14 +76,13 @@
 
             <div class="col-8"><div class="card">
                 <div class="card-body">
-High: 35° F <br/>
-Low: 18° F                 </div>
-            </div></div>
 
+                        <span id="description">It is cloudy today with a 10% chance of snow.      </span> <br/>
+Humidity: <span id="humidity">Humidity:  </span> % <br/>
+Wind: <span id="wind">Wind: </span>  mph            
 
-            <div class="col-4"><div class="card">
-                <div class="card-body">
-It is cloudy today with a 10% chance of snow.                </div>
+<br/>
+         </div></div>
             </div></div>
 
 
