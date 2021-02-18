@@ -1,0 +1,94 @@
+body {
+  font-family: sans-serif;
+}
+header {
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  font-family: Chelsea Market;
+  color: #9ceeda;
+  background-color: #aa6daa;
+}
+h1 {
+  text-align: center;
+  font-size: 25px;
+  color: #aa6daa;
+  font-weight: bold;
+  font-family: Chelsea Market;
+}
+.container {
+  font-size: 15px;
+  padding: 0px;
+  border: line;
+  border-color: black;
+  text-align: center;
+}
+.col {
+  background-color: white;
+  margin: 10px;
+  color: blue;
+}
+
+.days {
+  padding: 5px;
+  border-style: line;
+  border-color: black;
+  font-size: 12px;
+  text-align: center;
+}
+
+.row {
+  background-color: whitesmoke;
+  text-align: center;
+  font-weight: bold;
+  padding: 5px;
+}
+.forecast {
+  background-color: white;
+  margin: 0px auto;
+}
+
+.form-inline {
+  text-align: left;
+  padding: 0px;
+}
+
+.btn {
+  background-color: #aa6daa;
+  color: white;
+}
+
+.container2 {
+  background: white;
+  text-align: Center;
+  font-weight: bold;
+  padding: 0px;
+}
+#city {
+  font-size: 50px;
+}
+.card-body {
+  font-size: 20px;
+}
+.card-body-2 {
+  font-size: 50px;
+  display: inline;
+}
+
+.card-body-3 {
+  font-size: 20px;
+}
+
+.temp {
+  font-size: 30px;
+}
+
+.footer {
+  text-align: center;
+  font-size: 5px;
+}
+
+#temperature {
+  font-size: 50px;
+  display: inline;
+}
