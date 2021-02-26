@@ -64,3 +64,16 @@ function searchFor(city) {
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=imperial`;
   axios.get(apiUrl).then(displayWeatherCondition);
 }
+
+function displayWeatherConditionC(response) {
+  document.querySelector("#city").innerHTML = response.data.name;
+  document.querySelector("#temperatureC").innerHTML = Math.round(
+    response.data.main.temp
+  );
+}
+
+function searchFor(city) {
+  let apiKey = "393dd0732c47a5dd655d8f664b0e8d02";
+  let apiUrlC = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+  axios.get(apiUrlC).then(displayWeatherConditionC);
+}
